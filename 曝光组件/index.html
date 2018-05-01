@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>曝光组件-懒加载</title>
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .container:after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .container img {
+            border: 1px solid #979797;
+            padding: 5px;
+            float: left;
+            width: 30%;
+        }
+        img{
+            height:200px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="1" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfyyhxfelj30t60hik4z.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="2" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfypkttmvj307705e74c.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="3" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfypt6ljxj30i80ekdig.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="4" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfyq34sm7j30hs0a0dh7.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="5" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfyqj2gmqj30i609qwhy.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="6" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfyqqzgjsj30ol0ge410.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="7" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfyqv4e3hj307505gdfx.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="8" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfyree9brj306406egli.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="9" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfyrlzy0oj307n053gls.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="10" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfyru2qbtj30lc0aoq4f.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="11" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfys5wddxj30dw0dwwen.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="12" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfysk7wi1j30go0ar0u4.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="13" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfysrig37j308204uglo.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="14" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfysx9eu9j30go0b1gn4.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="15" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfyt6n1hqj30go09i0vr.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="16" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfytcv535j30go09dwfe.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="17" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfytjx5txj30jg0px0wa.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="18" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfytqhqi0j30m80b448b.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="19" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfytyjwtnj30hi0cuwgb.jpg">
+    <img src="http://smashinghub.com/wp-content/uploads/2014/08/cool-loading-animated-gif-3.gif" alt="20" data-src="http://ww1.sinaimg.cn/large/006JM2pKgy1fqfz0cdljvj30go09idgr.jpg">
+
+</div>
+<script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
